@@ -8,7 +8,9 @@ sass:
     style: compressed
 
 exclude:
+    - Dockerfile.dev
     - Gemfile
     - Gemfile.lock
     - LICENSE
     - README.md
+    - stack-dev.yml
