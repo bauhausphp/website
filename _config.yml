@@ -1,0 +1,14 @@
+timezone: America/Sao_Paulo
+encoding: UTF-8
+
+plugins:
+    - jekyll-sitemap
+
+sass:
+    style: compressed
+
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
