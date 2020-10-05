@@ -1,10 +1,10 @@
-FROM ruby:2.4
+FROM ruby:2.7.2
 
-WORKDIR /usr/src
+WORKDIR /var/www
 
-COPY ./Gemfile* /usr/src/
+COPY ./Gemfile* ./
 RUN bundle install
-COPY ./ /usr/src/
+COPY ./ ./
 
 CMD ["jekyll", "serve", "--watch", "--port", "80", "--host", "0.0.0.0", "--config", "_config.yml"]
 

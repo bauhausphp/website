@@ -1,16 +1,15 @@
-timezone: America/Sao_Paulo
+timezone: Europe/Berlin
 encoding: UTF-8
 
 plugins:
-    - jekyll-sitemap
+- jekyll-sitemap
 
 sass:
-    style: compressed
+  style: compressed
 
 exclude:
-    - Dockerfile.dev
-    - Gemfile
-    - Gemfile.lock
-    - LICENSE
-    - README.md
-    - stack-dev.yml
+- Dockerfile
+- Gemfile
+- Gemfile.lock
+- LICENSE
+- README.md
